@@ -1,0 +1,93 @@
+body {
+	background-color: #F1F1F1;
+}
+
+.container {
+	background-color: #FFFFFF;
+	min-height: 960px;
+}
+
+nav {
+	display: inline-block;
+	width: 100%;
+}
+
+h2 {
+	color: rgb(124, 124, 238);
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+
+aside h3 {
+	color: rgb(0, 170, 82);
+	text-align: center;
+}
+
+article figure img {
+	width: 450px;
+}
+
+article p {
+	font-family: verdana;
+	text-align: left;
+}
+
+article figure,
+article .article-content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+article .article-content {
+	margin-left: 25px;
+	width: 30%;
+}
+
+article .oferta-s img {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 110px;
+}
+.nav.nav-pills {
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+}
+
+.row.content {
+	border-bottom: 1px solid #7309AF;
+	border-top: 1px solid #7309AF;
+	min-height: 600px;
+}
+
+.col-md-4 {
+	border-left: 1px solid rgb(36, 218, 116);
+	min-height: 600px;
+}
+
+.logo {
+	position: absolute;
+}
+
+.logo img {
+	width: 255px;
+}
+
+.share-fb {
+	display: inline-block;
+	padding: 40px 35px 0 10px;
+}
+
+.share-tw {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+}
+
+.share-container {
+	margin: 0 auto;
+	width: 187px;
+}
